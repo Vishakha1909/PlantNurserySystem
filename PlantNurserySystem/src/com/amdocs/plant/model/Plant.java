@@ -1,15 +1,17 @@
 package com.amdocs.plant.model;
 
-import java.util.*;
-
 public class Plant {
-	int plantID;
-	String plantName;
-	String originCountryName;
-	int sunlightRequired;
-	String waterSupplyFrequency;
-	String plantType;
-	double cost;
+	private int plantID;
+	private String plantName;
+	private String originCountryName;
+	private int sunlightRequired;
+	private String waterSupplyFrequency;
+	private String plantType;
+	private double cost;
+	
+	public Plant() {
+		super();
+	}
 	
 	public Plant(int plantID, String plantName, String originCountryName, int sunlightRequired,
 			String waterSupplyFrequency, String plantType, double cost) {
